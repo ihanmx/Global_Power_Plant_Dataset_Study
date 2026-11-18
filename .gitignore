@@ -1,0 +1,17 @@
+# Virtual environment (each person builds their own)
+.venv/
+
+# Data (raw CSV is ~270 MB; GitHub's limit is 100 MB per file)
+data/raw/*
+data/processed/*
+
+# Jupyter / Python temp files
+.ipynb_checkpoints/
+__pycache__/
+
+references/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+models/
